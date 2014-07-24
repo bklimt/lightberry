@@ -1,7 +1,7 @@
 
 bin/lightberry: obj/main.o
-	mkdir bin && gcc -o $@ $<
+	mkdir -p bin && gcc -o $@ $< -lpthread
 
 obj/main.o: src/main.c
-	mkdir obj && gcc -o $@ -c $<
+	mkdir -p obj && gcc -o $@ -c $<
 
