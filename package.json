@@ -1,0 +1,18 @@
+{
+  "author": "Bryan Klimt <bklimt@gmail.com> (http://bklimt.com)",
+  "name": "lightberry",
+  "description": "Playing with Philips Hue from a Raspberry Pi.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bklimt/lightberry.git"
+  },
+  "dependencies": {
+    "upnp-client": "0.0.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

@@ -3,6 +3,28 @@ lightberry
 
 Playing around with a Raspberry Pi and some Philips Hue Lights
 
+# Go
+
+[Install go from source](http://golang.org/doc/install/source) and then run:
+
+    go run src/hue.go
+
+# JavaScript
+
+First, install nodejs and npm:
+
+    sudo apt-get install nodejs npm
+
+Then install the dependencies for the project:
+
+    npm install
+
+Finally, to run the lsupnp tool:
+
+    nodejs src/lsupnp.js
+
+# C++
+
 To install the dependencies in raspbian, start with these apt packages:
 
     sudo apt-get install libgflags-dev libgflags2
@@ -33,3 +55,4 @@ And finally, get the gtest source from apt, and then build it.
 Now, to build all of the lightberry binaries, just do:
 
     make
+
